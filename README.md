@@ -16,9 +16,9 @@ Send 2 parallel booking requests → one returns 409
 Shows: race condition handling & idempotency  
 https://github.com/NIMARS/booking-api-demo
 
-**all-about-pet — real auth flow**
+**all-about-pet — full auth lifecycle in real app**
 Login → refresh → protected route  
-Shows: access/refresh rotation + RBAC  
+Shows: access/refresh rotation, RBAC, ownership checks, uploads  
 https://github.com/NIMARS/all-about-pet
 
 ---
