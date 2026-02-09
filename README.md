@@ -1,16 +1,36 @@
-## Hi there 👋
+# Roman — Backend Developer (Node.js / TypeScript)
 
-<!--
-**NIMARS/NIMARS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend engineer focused on reliable HTTP APIs, data consistency and predictable behaviour.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What to demo (60 sec)
+
+**notes-api — indexing & pagination**
+Open `/docs` → GET `/notes?limit=20`  
+Shows: cursor pagination + jsonb GIN filtering  
+https://github.com/NIMARS/notes-api
+
+**booking-api-demo — concurrency correctness**
+Send 2 parallel booking requests → one returns 409  
+Shows: race condition handling & idempotency  
+https://github.com/NIMARS/booking-api-demo
+
+**all-about-pet — real auth flow**
+Login → refresh → protected route  
+Shows: access/refresh rotation + RBAC  
+https://github.com/NIMARS/all-about-pet
+
+---
+
+## What this proves
+- design APIs without duplicate/invalid states
+- handle concurrent writes safely
+- implement real authentication lifecycle
+- ship reproducible services (tests + docker + docs)
+
+---
+
+## Links
+Portfolio: https://nimars.github.io  
+LinkedIn: https://www.linkedin.com/in/nimars
