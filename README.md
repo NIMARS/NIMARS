@@ -4,7 +4,7 @@ Backend engineer focused on reliable HTTP APIs, data consistency and predictable
 
 ---
 
-## What to demo (60 sec)
+## What to demo
 
 **notes-api — indexing & pagination**  
 Open `/docs` → GET `/notes?limit=20`  
