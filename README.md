@@ -9,7 +9,7 @@ Backend engineer focused on reliable HTTP APIs, data consistency and predictable
 **notes-api — indexing & pagination**  
 Open `/docs` → GET `/notes?limit=20`  
 Shows: cursor pagination + jsonb GIN filtering  
-https://github.com/NIMARS/notes-api
+Live Demo: https://notes-api-vkcj.onrender.com/ (https://github.com/NIMARS/notes-api)
 
 **booking-api-demo — concurrency correctness**  
 Send 2 parallel booking requests → one returns 409  
